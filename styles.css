@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000;
+  }
+  
+  header h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #000;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: grab;
+  }
+  
+  .carousel img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .counter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .time-box {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-box p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .time-box label {
+    font-size: 14px;
+    color: #555;
+  }
+  
